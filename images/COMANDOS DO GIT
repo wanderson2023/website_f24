@@ -11,3 +11,23 @@ EXECUTE OS COMANDOS ABAIXO:
 git init
 // O COMANDO GIT ADD . PREPARA TODOS OS ARQUIVOS DO DIRETORIO DO PROJETO PARA O GIT.
 git add . 
+// ASSINANDO OS DOCUMENTOS COM UM COMENTARIO UTILIZANDO COMMIT
+
+// CONFIGURANDO NOSSAS CREDENCIAIS NO COMPUTADOR COM GIT
+git config --global user.name "Márcio Ferreira"
+git config --global user.name
+git config --global user.email "profhaeliomarcio@gmail.com"
+git config --global user.email
+
+git commit -m "Primeiro Commit"
+
+git branch -M main
+git remote add origin https://github.com/hmgferreira/website_f24.git
+git push -u origin main
+
+// COMANDO CLS PARA LIMPAR O TERMINAL
+// 
+git status
+
+
+cls
